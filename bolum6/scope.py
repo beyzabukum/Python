@@ -32,5 +32,6 @@ x=50
 def test(x):
     print(f"x: {x}")
     x=100
-    print(f"changed x to{x}")
+    print(f"changed x to {x}")
 test(x)
+print(x)

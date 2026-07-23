@@ -19,7 +19,7 @@ result = 0
 
 while x <= 100:
     x += 1
-    if x % 2 == 0:  
+    if x % 2 == 0:  #ciftleri atladıık sadece tekleri topladık
         continue           
     result += x
 
